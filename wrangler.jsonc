@@ -17,11 +17,11 @@
 		"EMAIL_ADDRESSES": []
 	},
 	"routes": [
-    	{
-      		"pattern": "mail.pierrefouquet.co.uk",
-      		"custom_domain": true
-    	}
-  	]
+	  {
+	    "pattern": "mail.pierrefouquet.co.uk",
+	    "custom_domain": true
+	  }
+	],
 	"send_email": [
 		{
 			"name": "EMAIL",

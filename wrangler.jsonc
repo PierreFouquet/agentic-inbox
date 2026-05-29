@@ -13,12 +13,21 @@
 		// Production deploys must also define POLICY_AUD and TEAM_DOMAIN.
 		// TEAM_DOMAIN may be the base Access URL or the full /cdn-cgi/access/certs URL.
 		// The worker now fails closed outside local development if Access is not configured.
-		"DOMAINS": "pierrefouquet.co.uk",
+		// Comma-separated list serves multiple email domains from one instance.
+		"DOMAINS": "opentostage.com,pierrefouquet.co.uk,scrncheat.com",
 		"EMAIL_ADDRESSES": []
 	},
 	"routes": [
 	  {
+	    "pattern": "mail.opentostage.com",
+	    "custom_domain": true
+	  },
+	  {
 	    "pattern": "mail.pierrefouquet.co.uk",
+	    "custom_domain": true
+	  },
+	  {
+	    "pattern": "mail.scrncheat.com",
 	    "custom_domain": true
 	  }
 	],

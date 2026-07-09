@@ -9,7 +9,6 @@ An **AI-powered Email Agent** can read your inbox, search conversations, and dra
 
 ![Agentic Inbox screenshot](./demo_app.png)
 
-
 Read the blog post to learn more about Cloudflare Email Service and how to use it with the Agents SDK, MCP, and from the Wrangler CLI: [Email for Agents](https://blog.cloudflare.com/email-for-agents/).
 
 ## How to setup
